@@ -1,0 +1,140 @@
+:root {
+  --bg-color: #f9f9f9;
+  --text-color: #000;
+  --card-bg: #fff;
+  --choice-border-color: #4f46e5; /* default biru */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+#darkToggle {
+  margin: 10px 0;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  font-size: 0.9rem;
+}
+
+#searchBox {
+  width: 100%;
+  max-width: 600px;
+  margin: 15px auto;
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+#resultCount {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 700px;
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+}
+
+.choice {
+  border-left: 4px solid var(--choice-border-color);
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.choice p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.effect {
+  display: inline-block;
+  margin: 4px 6px 0 0;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.effect.speed {
+  background: #3b82f6;
+}
+.effect.power {
+  background: #ef4444;
+}
+.effect.stamina {
+  background: #22c55e;
+}
+.effect.guts {
+  background: #f97316;
+}
+.effect.wisdom {
+  background: #a855f7;
+}
+.effect.energy {
+  background: #eab308;
+}
+.effect.other {
+  background: rgba(107, 114, 128, 0.5);
+}
+
+/* 🔹 Dark mode */
+body.dark {
+  --bg-color: #121212;
+  --text-color: #eee;
+  --card-bg: #1e1e1e;
+}
+
+body.dark #darkToggle {
+  background: #eee;
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .card {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "character": "Special Week",
+    "event": "Extra Training (Special Week)",
+    "choices": [
+      {
+        "option": "Got it! Then let's do some more laps until you're satisfied!",
+        "color": "green",
+        "effects": [
+          { "type": "Energy", "value": "-5" },
+          { "type": "Last trained stat", "value": "+5" },
+          { "type": "Friendship with Director", "value": "+5" }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Special Week",
+    "event": "Extra Training (Special Week)",
+    "choices": [
+      {
+        "option": "Got it! Then let's do some more laps until you're satisfied!",
+        "color": "green",
+        "effects": [
+          { "type": "Energy", "value": "-5" },
+          { "type": "Last trained stat", "value": "+5" },
+          { "type": "Friendship with Director", "value": "+5" }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Special Week",
+    "event": "Extra Training (Special Week)",
+    "choices": [
+      {
+        "option": "Got it! Then let's do some more laps until you're satisfied!",
+        "color": "green",
+        "effects": [
+          { "type": "Energy", "value": "-5" },
+          { "type": "Last trained stat", "value": "+5" },
+          { "type": "Friendship with Director", "value": "+5" }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Special Week",
+    "event": "Extra Training (Special Week)",
+    "choices": [
+      {
+        "option": "Got it! Then let's do some more laps until you're satisfied!",
+        "color": "green",
+        "effects": [
+          { "type": "Energy", "value": "-5" },
+          { "type": "Last trained stat", "value": "+5" },
+          { "type": "Friendship with Director", "value": "+5" }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Special Week",
+    "event": "Extra Training (Special Week)",
+    "choices": [
+      {
+        "option": "Got it! Then let's do some more laps until you're satisfied!",
+        "color": "green",
+        "effects": [
+          { "type": "Energy", "value": "-5" },
+          { "type": "Last trained stat", "value": "+5" },
+          { "type": "Friendship with Director", "value": "+5" }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Special Week",
+    "event": "Extra Training (Special Week)",
+    "choices": [
+      {
+        "option": "Got it! Then let's do some more laps until you're satisfied!",
+        "color": "green",
+        "effects": [
+          { "type": "Energy", "value": "-5" },
+          { "type": "Last trained stat", "value": "+5" },
+          { "type": "Friendship with Director", "value": "+5" }
+        ]
+      }
+    ]
+  },
+  {
+    "character": "Special Week",
+    "event": "Extra Training (Special Week)",
+    "choices": [
+      {
+        "option": "Got it! Then let's do some more laps until you're satisfied!",
+        "color": "green",
+        "effects": [
+          { "type": "Energy", "value": "-5" },
+          { "type": "Last trained stat", "value": "+5" },
+          { "type": "Friendship with Director", "value": "+5" }
+        ]
+      }
+    ]
+  }
+]
